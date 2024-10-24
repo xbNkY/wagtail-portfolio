@@ -13,7 +13,6 @@ class FlexPage(Page):
 
     content = StreamField(
         [
-            ("title_and_text", blocks.TitleAndTextBlock()),
             ("embed_video", blocks.EmbedVideoBlock()),
         ],
         null=True,

@@ -12,8 +12,8 @@ class HomePage(Page):
     templates = "home/home_page.html"
     max_count = 1
 
-    banner_title = models.CharField(max_length=100, blank=False, null=True)
-    banner_subtitles = RichTextField(features=["bold", "italic", "link"])
+    banner_title = models.CharField(max_length=100, blank=True, null=True)
+    banner_subtitles = RichTextField(features=["bold", "italic"], blank=True, null=True)
     banner_cta = models.ForeignKey(
         "wagtailcore.Page",
         null=True,

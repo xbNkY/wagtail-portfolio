@@ -8,8 +8,8 @@ html {
     box-sizing: inherit;
 }
 
+
 body {
-    max-width: 960px;
     min-height: 100vh;
     margin: 0 auto;
     padding: 0 15px;
@@ -182,3 +182,6 @@ svg:not(:root) {
         max-width: 100px;
     }
 }
+
+
+

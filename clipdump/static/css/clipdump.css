@@ -1,0 +1,33 @@
+.video-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 15px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.card {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: center;
+    order: 0;
+    width: 380px;
+    height: 260px;
+}
+
+.card iframe{
+    display: block;
+    width: 360px;
+    height: 240px;
+    align-self: center;
+    margin: 0 auto;
+    padding: 0 auto;
+    margin-top: 10px;
+    border-radius: 5px;
+}
